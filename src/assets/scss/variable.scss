@@ -1,0 +1,18 @@
+$light-gray: #e9e9e9;
+$light-green: #70c95e;
+$light-blue: #86abcc;
+$gray: #81807e;
+$white: #fff;
+$black: #000;
+$border: #c4c4c4;
+
+@mixin cleanBoxModel {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin clearList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
